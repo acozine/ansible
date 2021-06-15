@@ -1,7 +1,7 @@
 .. _plugins_lookup:
 
 ********************
-Working With Plugins
+Working with plugins
 ********************
 
 Plugins are pieces of code that augment Ansible's core functionality. Ansible uses a plugin architecture to enable a rich, flexible and expandable feature set.
@@ -19,16 +19,16 @@ This section covers the various types of plugins that are included with Ansible:
    callback
    cliconf
    connection
+   Doc Fragments Plugins <../user_guide/playbooks_doc_fragments>
+   Filter Plugins <../user_guide/playbooks_filters>
    httpapi
    inventory
    lookup
    netconf
    shell
    strategy
-   vars
-   Filter Plugins <../user_guide/playbooks_filters>
    Test Plugins <../user_guide/playbooks_tests>
-   Doc Fragments Plugins <../user_guide/playbooks_doc_fragments>
+   vars
 
 
 .. seealso::
