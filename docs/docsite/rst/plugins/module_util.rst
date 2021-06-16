@@ -1,6 +1,6 @@
 .. _module_util_plugins:
 
-Module Utilities
+Module utilities
 ================
 
 .. contents::
@@ -11,7 +11,7 @@ Module utilities contain shared code used by multiple modules. You can write :re
 
 .. _enabling_module_utils:
 
-Enabling module Utilities
+Enabling module utilities
 -------------------------
 
 You can add custom module utilities test plugin by dropping it into a ``module_utils`` directory adjacent to your collection or role, just like any other plugin.
