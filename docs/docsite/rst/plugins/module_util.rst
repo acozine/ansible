@@ -7,15 +7,14 @@ Module Utilities
    :local:
    :depth: 2
 
-Module utils . . . explain what they do.
+Module utilities contain shared code used by multiple modules. You can write :ref:`custom module utilities <developing_module_utilities>`.
 
 .. _enabling_module_utils:
 
 Enabling module Utilities
 -------------------------
 
-??? You can add a custom test plugin by dropping it into a ``test_plugins`` directory adjacent to your play, inside a role, or by putting it in one of the test plugin directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
-
+You can add custom module utilities test plugin by dropping it into a ``module_utils`` directory adjacent to your collection or role, just like any other plugin.
 
 .. _using_module_utils:
 
