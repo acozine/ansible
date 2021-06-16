@@ -9,19 +9,19 @@ Docs Fragments
 
 Docs fragments allow you to document common parameters of multiple plugins or modules in a single place. 
 
-.. _enabling_shell:
+.. _enabling_docs_fragments:
 
 Enabling docs fragments
 ----------------------
 
-You can add a custom docs fragment by dropping it into ???? should be collections-based.
+You can add a custom docs fragment by dropping it into a ``doc_fragments`` directory adjacent to your collection or role, just like any other plugin.
 
 .. _using_docs_fragments:
 
 Using docs fragments
 --------------------
 
-Only collection developers and maintainers use docs fragments. For more information on using docs fragments, see . . . Link to existing dev page.
+Only collection developers and maintainers use docs fragments. For more information on using docs fragments, see :ref:`module_docs_fragments` or :ref:`docfragments_collections`.
 
 .. seealso::
 
