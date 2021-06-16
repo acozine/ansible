@@ -19,21 +19,24 @@ This section covers the various types of plugins that are included with Ansible:
    callback
    cliconf
    connection
+   docs_fragment
+   filter
    httpapi
    inventory
    lookup
+   module
+   module_util
    netconf
    shell
    strategy
+   terminal
+   test
    vars
-   ../user_guide/playbooks_filters
-   ../user_guide/playbooks_tests
-   ../user_guide/plugin_filtering_config
 
 .. seealso::
 
-   :ref:`about_playbooks`
-       An introduction to playbooks
+   :ref:`plugin_filtering_config`
+       Rejecting modules
    :ref:`ansible_configuration_settings`
        Ansible configuration documentation and settings
    :ref:`command_line_tools`
