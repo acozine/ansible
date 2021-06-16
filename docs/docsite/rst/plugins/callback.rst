@@ -23,7 +23,7 @@ The :ref:`say <say_callback>` callback responds with computer synthesized speech
 Enabling callback plugins
 -------------------------
 
-You can activate a custom callback by either dropping it into a ``callback_plugins`` directory adjacent to your play,  inside a role, or by putting it in one of the callback directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
+You can activate a custom callback by either dropping it into a ``callback_plugins`` directory adjacent to your play, inside a role, or by putting it in one of the callback directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
 
 Plugins are loaded in alphanumeric order. For example, a plugin implemented in a file named `1_first.py` would run before a plugin file named `2_second.py`.
 
