@@ -7,17 +7,14 @@ Callback Plugins
    :local:
    :depth: 2
 
-Callback plugins enable adding new behaviors to Ansible when responding to events.
-By default, callback plugins control most of the output you see when running the command line programs,
-but can also be used to add additional output, integrate with other tools and marshall the events to a storage backend.
+Callback plugins enable adding new behaviors to Ansible when responding to events. By default, callback plugins control most of the output you see when running the command line programs, but can also be used to add additional output, integrate with other tools and marshall the events to a storage backend. If necessary, you can :ref:`create custom callback plugins <developing_callbacks>`.
 
 .. _callback_examples:
 
 Example callback plugins
 ------------------------
 
-The :ref:`log_plays <log_plays_callback>` callback is an example of how to record playbook events to a log file,
-and the :ref:`mail <mail_callback>` callback sends email on playbook failures.
+The :ref:`log_plays <log_plays_callback>` callback is an example of how to record playbook events to a log file, and the :ref:`mail <mail_callback>` callback sends email on playbook failures.
 
 The :ref:`say <say_callback>` callback responds with computer synthesized speech in relation to playbook events.
 
@@ -56,8 +53,7 @@ This only affects :ref:`ansible-playbook` by default.
 Setting a callback plugin for ad hoc commands
 ---------------------------------------------
 
-The :ref:`ansible` ad hoc command specifically uses a different callback plugin for stdout,
-so there is an extra setting in :ref:`ansible_configuration_settings` you need to add to use the stdout callback defined above:
+The :ref:`ansible` ad hoc command specifically uses a different callback plugin for stdout, so there is an extra setting in :ref:`ansible_configuration_settings` you need to add to use the stdout callback defined above:
 
 .. code-block:: ini
 

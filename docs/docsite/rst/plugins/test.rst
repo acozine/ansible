@@ -7,7 +7,9 @@ Test Plugins
    :local:
    :depth: 2
 
-Test plugins . . . explain what they do.
+Test plugins evaluate template expressions and return True or False. With test plugins you can create :ref:`conditionals <playbooks_conditionals>` to implement the logic of your tasks, blocks, plays, playbooks, and roles. Ansible leverages the `standard tests `_ shipped as part of Jinja, and adds some specialized test plugins. You can :ref:`create custom Ansible test plugins <developing_test_plugins>`.
+
+.. _standard tests: https://jinja.palletsprojects.com/en/latest/templates/#builtin-tests
 
 .. _enabling_test:
 
@@ -22,7 +24,7 @@ You can add a custom test plugin by dropping it into a ``test_plugins`` director
 Using test plugins
 -------------------
 
-Link to tests page in the User Guide.
+The User Guide offers detailed documentation on :ref:`using test plugins <playbooks_tests>`.
 
 .. seealso::
 
