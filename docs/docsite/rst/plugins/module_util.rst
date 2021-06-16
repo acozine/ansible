@@ -14,14 +14,14 @@ Module utilities contain shared code used by multiple modules. You can write :re
 Enabling module utilities
 -------------------------
 
-You can add custom module utilities test plugin by dropping it into a ``module_utils`` directory adjacent to your collection or role, just like any other plugin.
+You can add a custom module utility by dropping it into a ``module_utils`` directory adjacent to your collection or role, just like any other plugin.
 
 .. _using_module_utils:
 
 Using module utilities
 ----------------------
 
-Link to dev guide page.
+For information on using module utilities, see :ref:`developing_module_utilities`.
 
 .. seealso::
 
