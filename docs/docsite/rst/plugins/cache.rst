@@ -11,7 +11,7 @@ Cache plugins allow Ansible to store gathered facts or inventory source data wit
 
 The default cache plugin is the :ref:`memory <memory_cache>` plugin, which only caches the data for the current execution of Ansible. Other plugins with persistent storage are available to allow caching the data across runs. Some of these cache plugins write to files, others write to databases.
 
-You can use different cache plugins for inventory and facts. If you enable inventory caching without setting an inventory-specific cache plugin, Ansible uses the fact cache plugin for both facts and inventory. If necessary, you can :ref:`create custom action plugins <developing_cache_plugins>`.
+You can use different cache plugins for inventory and facts. If you enable inventory caching without setting an inventory-specific cache plugin, Ansible uses the fact cache plugin for both facts and inventory. If necessary, you can :ref:`create custom cache plugins <developing_cache_plugins>`.
 
 .. _enabling_cache:
 
