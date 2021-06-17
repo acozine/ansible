@@ -7,21 +7,27 @@ Module Plugins
    :local:
    :depth: 2
 
-Modules, which are the main building blocks of Ansible playbooks, are plugins. 
+Modules are the main building blocks of Ansible playbooks. Although we do not generally speak of "module plugins", a module is a type of plugin. For a developer-focused description of the differences between modules and other plugins, see :ref:`modules_vs_plugins`.
 
 .. _enabling_modules:
 
 Enabling modules
 ----------------
 
-You can add a custom module by dropping it into ???? ``test_plugins`` directory adjacent to your play, inside a role, or by putting it in one of the test plugin directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
+You can enable a custom module by dropping it into one of these locations:
+
+* any directory added to the ``ANSIBLE_LIBRARY`` environment variable (``$ANSIBLE_LIBRARY`` takes a colon-separated list like ``$PATH``)
+* ``~/.ansible/plugins/modules/``
+* ``/usr/share/ansible/plugins/modules/``
+
+For more information on using local custom modules, see :ref:`local_modules`. 
 
 .. _using_modules:
 
 Using modules
 -------------
 
-Link to modules page in the User Guide.
+For information on using modules in ad hoc tasks, see :ref:`intro_adhoc`. For information on using modules in playbooks, see :ref:`playbooks_intro`.
 
 .. seealso::
 
