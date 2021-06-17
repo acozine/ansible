@@ -7,14 +7,14 @@ Terminal Plugins
    :local:
    :depth: 2
 
-Terminal plugins . . . explain what they do.
+Terminal plugins connect Ansible to devices and target nodes that allow direct connections but do not run shell programs. In most cases, you can find :ref:`netconf <netconf_plugins>` or :ref:`cliconf <cliconf_plugins>` plugins that provide similar functionality. Terminal plugins ensure that the basic commands Ansible runs are properly formatted to support legacy playbooks.
 
 .. _enabling_terminal:
 
 Enabling terminal plugins
 -------------------------
 
-You can add a custom terminal plugin by dropping it into a ``terminal_plugins`` directory adjacent to your play, inside a role, or by putting it in one of the terminal plugin directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
+You can add a custom terminal plugin by dropping it into a ``terminal_plugins`` directory adjacent to your play, inside a role or collection, or by putting it in one of the terminal plugin directory sources configured in :ref:`ansible.cfg <ansible_configuration_settings>`.
 
 
 .. _using_terminal:
@@ -22,7 +22,7 @@ You can add a custom terminal plugin by dropping it into a ``terminal_plugins`` 
 Using terminal plugins
 ----------------------
 
-???
+Most terminal plugins support legacy playbooks. If you are writing new tasks, plays, playbooks, or roles, use :ref:`netconf <netconf_plugins>` or :ref:`cliconf <cliconf_plugins>` plugins instead. If you are updating a playbook or role that uses a terminal plugin, consult specific collection documentation for information on using it.
 
 .. seealso::
 
