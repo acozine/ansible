@@ -1,6 +1,6 @@
 .. _test_plugins:
 
-Test Plugins
+Test plugins
 =============
 
 .. contents::
@@ -30,16 +30,16 @@ The User Guide offers detailed documentation on :ref:`using test plugins <playbo
 
    :ref:`about_playbooks`
        An introduction to playbooks
-   :ref:`inventory_plugins`
-       Ansible inventory plugins
-   :ref:`callback_plugins`
-       Ansible callback plugins
-   :ref:`playbooks_filters`
-       Jinja2 filter plugins
    :ref:`playbooks_tests`
-       Jinja2 test plugins
-   :ref:`playbooks_lookups`
-       Jinja2 lookup plugins
+       Using tests
+   :ref:`playbooks_conditionals`
+       Using conditional statements
+   :ref:`filter_plugins`
+       Filter plugins
+   :ref:`playbooks_filters`
+       Using filters
+   :ref:`lookup_plugins`
+       Lookup plugins
    `User Mailing List <https://groups.google.com/group/ansible-devel>`_
        Have a question?  Stop by the google group!
    `irc.freenode.net <http://irc.freenode.net>`_

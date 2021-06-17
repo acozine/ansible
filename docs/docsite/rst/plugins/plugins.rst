@@ -1,7 +1,7 @@
 .. _plugins_lookup:
 
 ********************
-Working With Plugins
+Working with plugins
 ********************
 
 Plugins are pieces of code that augment Ansible's core functionality. Ansible uses a plugin architecture to enable a rich, flexible and expandable feature set.

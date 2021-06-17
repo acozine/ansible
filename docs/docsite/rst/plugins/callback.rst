@@ -1,6 +1,6 @@
 .. _callback_plugins:
 
-Callback Plugins
+Callback plugins
 ================
 
 .. contents::
@@ -78,19 +78,19 @@ Use ``ansible-doc -t callback <plugin name>`` to see specific documents and exam
 .. seealso::
 
    :ref:`action_plugins`
-       Ansible Action plugins
+       Action plugins
    :ref:`cache_plugins`
-       Ansible cache plugins
+       Cache plugins
    :ref:`connection_plugins`
-       Ansible connection plugins
+       Connection plugins
    :ref:`inventory_plugins`
-       Ansible inventory plugins
+       Inventory plugins
    :ref:`shell_plugins`
-       Ansible Shell plugins
+       Shell plugins
    :ref:`strategy_plugins`
-       Ansible Strategy plugins
+       Strategy plugins
    :ref:`vars_plugins`
-       Ansible Vars plugins
+       Vars plugins
    `User Mailing List <https://groups.google.com/forum/#!forum/ansible-devel>`_
        Have a question?  Stop by the google group!
    `irc.libera.chat <https://libera.chat/>`_

@@ -1,6 +1,6 @@
 .. _action_plugins:
 
-Action Plugins
+Action plugins
 ==============
 
 .. contents::
@@ -36,19 +36,19 @@ Use ``ansible-doc <name>`` to see specific documentation and examples, this shou
 .. seealso::
 
    :ref:`cache_plugins`
-       Ansible Cache plugins
+       Cache plugins
    :ref:`callback_plugins`
-       Ansible callback plugins
+       Callback plugins
    :ref:`connection_plugins`
-       Ansible connection plugins
+       Connection plugins
    :ref:`inventory_plugins`
-       Ansible inventory plugins
+       Inventory plugins
    :ref:`shell_plugins`
-       Ansible Shell plugins
+       Shell plugins
    :ref:`strategy_plugins`
-       Ansible Strategy plugins
+       Strategy plugins
    :ref:`vars_plugins`
-       Ansible Vars plugins
+       Vars plugins
    `User Mailing List <https://groups.google.com/group/ansible-devel>`_
        Have a question?  Stop by the google group!
    `irc.libera.chat <https://libera.chat/>`_

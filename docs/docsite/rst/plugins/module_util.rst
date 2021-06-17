@@ -25,18 +25,10 @@ For information on using module utilities, see :ref:`developing_module_utilities
 
 .. seealso::
 
-   :ref:`about_playbooks`
-       An introduction to playbooks
-   :ref:`inventory_plugins`
-       Ansible inventory plugins
-   :ref:`callback_plugins`
-       Ansible callback plugins
-   :ref:`playbooks_filters`
-       Jinja2 filter plugins
-   :ref:`playbooks_tests`
-       Jinja2 test plugins
-   :ref:`playbooks_lookups`
-       Jinja2 lookup plugins
+   :ref:`developing_modules_general`
+       An introduction to creating Ansible modules
+   :ref:`developing_collections`
+       An guide to creating Ansible collections
    `User Mailing List <https://groups.google.com/group/ansible-devel>`_
        Have a question?  Stop by the google group!
    `irc.freenode.net <http://irc.freenode.net>`_
