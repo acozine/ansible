@@ -1,7 +1,7 @@
 .. _module_plugins:
 
-Module Plugins
-==============
+Modules
+=======
 
 .. contents::
    :local:

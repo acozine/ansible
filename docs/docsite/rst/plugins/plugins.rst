@@ -36,7 +36,7 @@ This section covers the various types of plugins that are included with Ansible:
 .. seealso::
 
    :ref:`plugin_filtering_config`
-       Rejecting modules
+       Controlling access to modules
    :ref:`ansible_configuration_settings`
        Ansible configuration documentation and settings
    :ref:`command_line_tools`
